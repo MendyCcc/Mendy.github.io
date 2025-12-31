@@ -37,10 +37,10 @@ export function Navbar({ currentPage, onNavigate }: NavbarProps) {
       <div className="max-w-[1440px] mx-auto px-8 md:px-16 py-6 flex justify-between items-center">
         <motion.button
           onClick={() => onNavigate('home')}
-          className="text-xl tracking-tight"
+          className="text-xl tracking-tight hidden md:block"
           whileHover={{ scale: 1.05 }}
         >
-          Mendy
+          Wenting Zhang
         </motion.button>
 
         <div className="flex gap-8 md:gap-12">
