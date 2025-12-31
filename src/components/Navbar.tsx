@@ -40,7 +40,7 @@ export function Navbar({ currentPage, onNavigate }: NavbarProps) {
           className="text-xl tracking-tight"
           whileHover={{ scale: 1.05 }}
         >
-          Designer Zhang
+          Mendy
         </motion.button>
 
         <div className="flex gap-8 md:gap-12">
