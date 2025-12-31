@@ -43,7 +43,8 @@ export function Navbar({ currentPage, onNavigate }: NavbarProps) {
       animate={{ y: 0 }}
       transition={{ duration: 0.6, ease: 'easeOut' }}
     >
-      <div className="max-w-[1440px] mx-auto px-8 md:px-16 py-6 flex justify-between items-center">
+      <div className="max-w-[1440px] mx-auto px-8 md:px-16 py-6 flex justify-center md:justify-between items-center">
+        
         {!isMobile && (
         <motion.button
           onClick={() => onNavigate('home')}
