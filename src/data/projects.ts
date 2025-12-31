@@ -169,7 +169,7 @@ export const projects: Project[] = [
   {
     id: 4,
     slug: 'urban-rest-hub',
-    title: 'Urban Rest Hub',
+    title: 'Ur:base',
     subtitle: 'Public transport rest-space collaboration design for urban commuters',
     tags: ['Service Design', 'Urban Planning', 'UX'],
     coverImage: 'https://images.unsplash.com/photo-1604071255486-e82a50924cf1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx1cmJhbiUyMHB1YmxpYyUyMHNwYWNlfGVufDF8fHx8MTc2MzAxMzU1OHww&ixlib=rb-4.1.0&q=80&w=1080',
@@ -181,7 +181,7 @@ export const projects: Project[] = [
         'Enable productive waiting through thoughtful service touchpoints'
       ],
       role: 'Service Designer',
-      timeline: '7 months (2023)',
+      timeline: '4 months (2023)',
       tools: ['Service blueprints', 'Figma', 'Physical prototyping', 'Ethnography']
     },
     process: [
@@ -223,7 +223,7 @@ export const projects: Project[] = [
         'Build sustainable behavioral change through positive reinforcement'
       ],
       role: 'Lead Service Designer',
-      timeline: '8 months (2022-2023)',
+      timeline: '8 months (2020-2021)',
       tools: ['Service design toolkit', 'Figma', 'Mobile prototyping', 'Data analytics']
     },
     process: [
@@ -253,8 +253,8 @@ export const projects: Project[] = [
   {
     id: 6,
     slug: 'shared-umbrella',
-    title: 'Shared Umbrella',
-    subtitle: 'Sustainable shared umbrella system',
+    title: 'Buddy',
+    subtitle: 'Shared Umbrella: Sustainable shared umbrella system',
     tags: ['Product Design', 'Service Design', 'Sustainability'],
     coverImage: 'https://images.unsplash.com/photo-1663590961701-d00b0bc85f4d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx1bWJyZWxsYSUyMHJhaW4lMjBtaW5pbWFsfGVufDF8fHx8MTc2MzAxMzU1OHww&ixlib=rb-4.1.0&q=80&w=1080',
     overview: {
@@ -265,7 +265,7 @@ export const projects: Project[] = [
         'Balance business viability with environmental impact'
       ],
       role: 'Product & Service Designer',
-      timeline: '1 year (2021-2022)',
+      timeline: '1 year (2018-2019)',
       tools: ['SolidWorks', 'Figma', 'Service blueprints', 'Physical prototyping']
     },
     process: [
