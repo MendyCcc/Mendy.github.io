@@ -86,8 +86,8 @@ export function ContactPage() {
             className="mt-24 pt-12 border-t border-[var(--light-gray)]"
           >
             <p className="opacity-60 max-w-2xl mx-auto">
-              Currently based between Berlin and Beijing. Available for freelance work,
-              full-time opportunities, speaking engagements, and design collaborations.
+              Currently based Shenzhen. Available for freelance work,
+              full-time opportunities and design collaborations.
             </p>
           </motion.div>
         </div>
