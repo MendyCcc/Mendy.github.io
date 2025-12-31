@@ -37,8 +37,8 @@ export function AboutPage() {
               transition={{ duration: 6, repeat: Infinity, ease: 'easeInOut' }}
             >
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1654512462974-f023401ba8a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwb3J0cmFpdCUyMHdvbWFuJTIwZGVzaWduZXJ8ZW58MXx8fHwxNzYzMDEzNTU2fDA&ixlib=rb-4.1.0&q=80&w=1080"
-                alt="Designer Zhang"
+                src="https://github.com/MendyCcc/Mendy.github.io/blob/main/src/assets/my%20photo.jpg"
+                alt="Wenting Zhang"
                 className="w-full h-full object-cover grayscale"
               />
             </motion.div>
@@ -52,17 +52,17 @@ export function AboutPage() {
             className="flex flex-col justify-center"
           >
             <p className="text-2xl mb-8 leading-relaxed">
-              I'm Zhang, a designer exploring the intersection of interaction, culture,
-              and human behavior.
+              I’m a Senior UX/UI Designer crafting emotionally intelligent interfaces 
+              across physical and digital environments. 
             </p>
             <p className="text-xl opacity-80 mb-8 leading-relaxed">
-              My work spans product ecosystems, service design, and speculative interactions.
-              I believe design is a powerful tool for bridging cultural gaps and creating
-              meaningful human experiences.
+              With a focus on human-centered AI and interaction systems, m
+              y current work explores how technology can meaningfully support memory, 
+              attention, and emotional connection—quietly embedded in everyday experiences.
             </p>
             <p className="opacity-70 leading-relaxed">
-              Currently based between Berlin and Beijing, I draw inspiration from the
-              contrasts and connections between Eastern and Western design philosophies.
+              My practice is shaped by cross-cultural collaboration and grounded 
+              in a belief that the best experiences are not the loudest—but the most resonant.
             </p>
           </motion.div>
         </div>
@@ -75,15 +75,23 @@ export function AboutPage() {
               <p className="opacity-60">2022 - 2024</p>
               <div className="md:col-span-2">
                 <h4 className="mb-2">Master of Arts in Interaction Design</h4>
-                <p className="opacity-80">University of the Arts, Berlin, Germany</p>
+                <p className="opacity-80">Hochschule für Technik und Wirtschaft Dresden, Germany</p>
                 <p className="text-sm opacity-60 mt-2">
                   Focus: Human-Centered Design, Speculative Design, Cultural Technology
                 </p>
               </div>
             </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              <p className="opacity-60">2021 - 2022</p>
+              <div className="md:col-span-2">
+                <h4 className="mb-2">Kunst und Multimedia(H), Medieninformatik(N)</h4>
+                <p className="opacity-80">Ludwig-Maximilians-Universität München, Germany</p>
+              </div>
+            </div>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-              <p className="opacity-60">2018 - 2022</p>
+              <p className="opacity-60">2015 - 2019</p>
               <div className="md:col-span-2">
                 <h4 className="mb-2">Bachelor of Fine Arts in Product Design</h4>
                 <p className="opacity-80">Central Academy of Fine Arts, Beijing, China</p>
@@ -136,18 +144,11 @@ export function AboutPage() {
         <motion.section {...fadeInUp} className="mb-24">
           <h2 className="mb-8 text-[var(--accent)]">Awards & Recognition</h2>
           <div className="space-y-6 opacity-80">
-            <div className="flex justify-between items-start gap-4 pb-4 border-b border-[var(--light-gray)]">
-              <div>
-                <h4 className="mb-1">Red Dot Design Award</h4>
-                <p className="text-sm opacity-70">Imagecho Frame - Product Design</p>
-              </div>
-              <span className="text-sm opacity-60">2024</span>
-            </div>
             
             <div className="flex justify-between items-start gap-4 pb-4 border-b border-[var(--light-gray)]">
               <div>
-                <h4 className="mb-1">iF Design Award</h4>
-                <p className="text-sm opacity-70">Urban Rest Hub - Service Design</p>
+                <h4 className="mb-1">Architecture Meets Design - Impulses for Sustainability & Urban Development</h4>
+                <p className="text-sm opacity-70">Urban:Base - Service Design</p>
               </div>
               <span className="text-sm opacity-60">2023</span>
             </div>
@@ -157,7 +158,7 @@ export function AboutPage() {
                 <h4 className="mb-1">CAFA Outstanding Graduate Award</h4>
                 <p className="text-sm opacity-70">Thesis: Shared Umbrella System</p>
               </div>
-              <span className="text-sm opacity-60">2022</span>
+              <span className="text-sm opacity-60">2019</span>
             </div>
 
             <div className="flex justify-between items-start gap-4">
