@@ -1,11 +1,13 @@
+⚠️ 版权声明 (Copyright Notice)
 
-  # sehr wichtig fuer Cheung
+© 2026 Mendy. All rights reserved.
 
-  This is a code bundle for sehr wichtig fuer Cheung. The original project is available at https://www.figma.com/design/95e6j1BWBbyHQKr2JwyUOm/sehr-wichtig-fuer-Cheung.
+本仓库包含的所有设计作品、图像、文字及交互逻辑均为 Wenting Zhang的原创作品。
 
-  ## Running the code
+未经明确书面许可，严禁任何人进行以下行为：
+  复制、修改或分发本仓库中的任何视觉资源（图片、图标等）。
+  将本项目代码用于任何商业用途。
+  盗用设计稿进行二次创作或声称为原创。
 
-  Run `npm i` to install the dependencies.
-
-  Run `npm run dev` to start the development server.
+如有任何合作或授权需求，请通过 [zhaing55@gmail.com] 与我联系。
   
