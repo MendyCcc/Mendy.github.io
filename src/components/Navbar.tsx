@@ -8,11 +8,20 @@ interface NavbarProps {
 
 export function Navbar({ currentPage, onNavigate }: NavbarProps) {
   const [scrolled, setScrolled] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 50);
     };
+
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    window.addEventListener('scroll', handleScroll);
 
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
@@ -35,7 +44,7 @@ export function Navbar({ currentPage, onNavigate }: NavbarProps) {
       transition={{ duration: 0.6, ease: 'easeOut' }}
     >
       <div className="max-w-[1440px] mx-auto px-8 md:px-16 py-6 flex justify-between items-center">
-        <div className="hidden md:block">
+        {!isMobile && (
         <motion.button
           onClick={() => onNavigate('home')}
           className="text-xl tracking-tight"
@@ -43,7 +52,7 @@ export function Navbar({ currentPage, onNavigate }: NavbarProps) {
         >
           Wenting Zhang
         </motion.button>
-       </div>
+      )}
 
         <div className="flex gap-8 md:gap-12">
           {navItems.map((item) => (
