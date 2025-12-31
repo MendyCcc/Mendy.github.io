@@ -26,7 +26,7 @@ export interface Project {
 }
 
 export const projects: Project[] = [
-  {
+/*  {
     id: 1,
     slug: 'imagecho-frame',
     title: 'Imagecho Frame + App',
@@ -79,6 +79,8 @@ export const projects: Project[] = [
       ]
     }
   },
+*/
+/*
   {
     id: 2,
     slug: 'imagecho-curator',
@@ -121,13 +123,14 @@ export const projects: Project[] = [
       images: ['https://images.unsplash.com/photo-1757310998648-f8aaa5572e8e?w=1200']
     }
   },
+*/
   {
     id: 3,
-    slug: 'gesture-interaction',
+    slug: 'Gesture to global',
     title: 'Gesture-based Interaction',
     subtitle: 'Web-based gesture recognition for cross-cultural communication',
     tags: ['Interaction Design', 'Research', 'Web'],
-    coverImage: 'https://images.unsplash.com/photo-1758600587382-2d7da8b9e361?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoYW5kJTIwZ2VzdHVyZSUyMGludGVyYWN0aW9ufGVufDF8fHx8MTc2MzAxMzU1N3ww&ixlib=rb-4.1.0&q=80&w=1080',
+    coverImage: 'https://github.com/MendyCcc/Mendy.github.io/blob/main/src/assets/%20gesture%20to%20global.png?raw=true',
     overview: {
       background: 'An experimental web platform exploring how gesture-based interactions can bridge cultural and linguistic barriers in digital communication.',
       objectives: [
@@ -136,7 +139,7 @@ export const projects: Project[] = [
         'Build accessible gesture recognition systems'
       ],
       role: 'Interaction Designer & Researcher',
-      timeline: '4 months (2023)',
+      timeline: '4 months (2024)',
       tools: ['JavaScript', 'TensorFlow.js', 'Figma', 'WebGL']
     },
     process: [
@@ -160,7 +163,7 @@ export const projects: Project[] = [
     outcome: {
       description: 'The platform achieved 92% gesture recognition accuracy across diverse user groups and sparked conversations about inclusive interaction design.',
       quote: 'Gestures speak louder than words when words divide us.',
-      images: ['https://images.unsplash.com/photo-1758600587382-2d7da8b9e361?w=1200']
+      images: ['https://cdn.dribbble.com/userupload/14058212/file/original-a25390d4f79fd42900b643a79c832435.mp4']
     }
   },
   {
