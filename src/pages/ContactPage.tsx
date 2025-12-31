@@ -36,11 +36,11 @@ export function ContactPage() {
           >
             <p className="text-sm opacity-60 mb-3 tracking-widest">EMAIL</p>
             <motion.a
-              href="mailto:hello@zhang.design"
+              href="mailto:zhaing55@gmail.com"
               className="text-3xl md:text-4xl hover:text-[var(--accent)] transition-colors inline-block relative group cursor-hover"
               whileHover={{ scale: 1.02 }}
             >
-              hello@zhang.design
+              zhaing55@gmail.com
               <motion.div
                 className="absolute bottom-0 left-0 right-0 h-px bg-[var(--accent)] origin-left"
                 initial={{ scaleX: 0 }}
@@ -58,7 +58,7 @@ export function ContactPage() {
             className="flex flex-col sm:flex-row gap-8 justify-center items-center"
           >
             <SocialLink
-              href="https://linkedin.com"
+              href="www.linkedin.com/in/wenting-zhang-423946282"
               icon={<Linkedin size={20} />}
               label="LinkedIn"
             />
