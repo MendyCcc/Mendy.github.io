@@ -37,7 +37,7 @@ export function AboutPage() {
               transition={{ duration: 6, repeat: Infinity, ease: 'easeInOut' }}
             >
               <ImageWithFallback
-                src="https://github.com/MendyCcc/Mendy.github.io/blob/main/src/assets/my%20photo.jpg"
+                src="https://github.com/MendyCcc/Mendy.github.io/blob/main/src/assets/my%20photo.jpg?raw=true"
                 alt="Wenting Zhang"
                 className="w-full h-full object-cover grayscale"
               />
