@@ -26,7 +26,7 @@ export interface Project {
 }
 
 export const projects: Project[] = [
-/*  {
+  {
     id: 1,
     slug: 'imagecho-frame',
     title: 'Imagecho Frame + App',
@@ -79,8 +79,8 @@ export const projects: Project[] = [
       ]
     }
   },
-*/
-/*
+
+
   {
     id: 2,
     slug: 'imagecho-curator',
@@ -123,7 +123,7 @@ export const projects: Project[] = [
       images: ['https://images.unsplash.com/photo-1757310998648-f8aaa5572e8e?w=1200']
     }
   },
-*/
+
   {
     id: 3,
     slug: 'Gesture to global',
