@@ -39,7 +39,7 @@ export function AboutPage() {
               <ImageWithFallback
                 src="https://github.com/MendyCcc/Mendy.github.io/blob/main/src/assets/my%20photo.jpg?raw=true"
                 alt="Wenting Zhang"
-                className="w-full h-full object-cover grayscale"
+                className="w-full h-full object-cover"
               />
             </motion.div>
           </motion.div>
@@ -52,7 +52,7 @@ export function AboutPage() {
             className="flex flex-col justify-center"
           >
             <p className="text-2xl mb-8 leading-relaxed">
-              I’m a Senior UX/UI Designer crafting emotionally intelligent interfaces 
+              I’m a Designer crafting emotionally intelligent interfaces 
               across physical and digital environments. 
             </p>
             <p className="text-xl opacity-80 mb-8 leading-relaxed">
